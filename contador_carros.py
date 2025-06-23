@@ -2,7 +2,7 @@ import cv2
 from ultralytics import YOLO
 
 def contar_carros(video_path):
-    model = YOLO("yolov8m.pt")  # Use yolov8n.pt se quiser mais leve
+    model = YOLO("yolov8m.pt")  # Use yolov8n.pt se quiser 
     cap = cv2.VideoCapture(video_path)
 
     CAR_CLASS_ID = 2  # Classe "car" no COCO
