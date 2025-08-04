@@ -2,13 +2,13 @@
 
 Este projeto usa **YOLOv8** (modelo pré-treinado da Ultralytics) para detectar e contar **apenas carros** (ignorando ônibus, motos etc.) em um vídeo de trânsito. A contagem é exibida em **tempo real** com uma interface criada em **Streamlit**.
 
-## 📸 Exemplo
+## Exemplo
 
 ![Exemplo de detecção](imagem/image1.png)
 
 ---
 
-## 📦 Requisitos
+## Requisitos
 
 - Python 3.8+
 - OpenCV (`cv2`)
@@ -19,4 +19,5 @@ Este projeto usa **YOLOv8** (modelo pré-treinado da Ultralytics) para detectar 
 
 ```bash
 pip install -r requirements.txt
+
 
